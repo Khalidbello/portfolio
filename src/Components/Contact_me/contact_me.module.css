@@ -1,0 +1,43 @@
+.mail {
+  display: block;
+  border: 2px solid;
+  border-image: linear-gradient(to bottom, #ff8c0080, transparent);
+  border-image-slice: 1;
+  border-image-width: 0 0 0 2px;
+}
+
+.label_i {
+  position: relative;
+  bottom: -31px;
+  opacity: 0.4;
+  transition:
+    bottom 0.5s ease,
+    opacity 2s ease;
+}
+.mail > input {
+  border: none;
+  border-bottom: thin solid #ff8c0080;
+  width: 90%;
+  display: block;
+}
+
+.label_a {
+  position: relative;
+  bottom: -63px;
+  opacity: 0.4;
+  transition:
+    bottom 0.5s ease,
+    opacity 2s ease;
+}
+.mail > textarea {
+  width: 90%;
+  height: 60px;
+  border: none;
+  border-bottom: thin solid #ff8c0080;
+}
+
+.mail > button {
+  padding: 10px 30px;
+  border-radius: 300px;
+  border: none;
+}

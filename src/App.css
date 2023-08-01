@@ -1,0 +1,424 @@
+/* styles for dark mode */
+:root {
+  --ash1: #010113;
+  --ash2: #121223;
+  --ash3: #232333;
+  --ash4: #343443;
+  --ash5: #535353;
+  --white: #ffffff;
+  --dark: #11111f;
+  --border: #383838;
+  --color-p1: #ff8c00;
+}
+
+* {
+  font-family: fantasy;
+  box-sizig: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: var(--white);
+}
+.l-border {
+  border: solid thin var(--border);
+}
+
+/* background colors */
+.bg-ash1 {
+  background-color: var(--ash1);
+}
+.bg-ash2 {
+  background-color: var(--ash2);
+}
+.bg-ash3 {
+  background-color: var(--ash3);
+}
+.bg-ash4 {
+  background-color: var(--ash4);
+}
+
+/* primary color */
+.bg-p1 {
+  background-color: var(--color-p1);
+}
+.bg-p2 {
+  background-color: #ff7f00;
+}
+.bg-p3 {
+  background-color: #ff7400;
+}
+.bg-p4 {
+  background-color: #ff6600;
+}
+.bg-p5 {
+  background-color: #ff5900;
+}
+
+/* color */
+.color-p1 {
+  color: var(--color-p1);
+}
+.color-p2 {
+  color: #ff7f00;
+}
+.color-p3 {
+  color: #ff7400;
+}
+.color-p4 {
+  color: #ff6600;
+}
+.color-p5 {
+  color: #ff5900;
+}
+.color-w {
+  color: #ffffff;
+}
+
+/* Font Sizes */
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+/* Font Weights */
+.font-w-100 {
+  font-weight: 100;
+}
+
+.font-w-300 {
+  font-weight: 300;
+}
+
+.font-w-400 {
+  font-weight: 400;
+}
+
+.font-w-500 {
+  font-weight: 500;
+}
+
+.font-w-700 {
+  font-weight: 700;
+}
+
+.font-w-800 {
+  font-weight: 800;
+}
+
+/* margins */ /* Set 1 */
+.mt-3 {
+  margin-top: 3px;
+}
+
+.ml-3 {
+  margin-left: 3px;
+}
+
+.mr-3 {
+  margin-right: 3px;
+}
+
+.mb-3 {
+  margin-bottom: 3px;
+}
+
+/* Set 2 */
+.mt-7 {
+  margin-top: 7px;
+}
+
+.ml-7 {
+  margin-left: 7px;
+}
+
+.mr-7 {
+  margin-right: 7px;
+}
+
+.mb-7 {
+  margin-bottom: 7px;
+}
+
+/* Set 3 */
+.mt-11 {
+  margin-top: 11px;
+}
+
+.ml-11 {
+  margin-left: 11px;
+}
+
+.mr-11 {
+  margin-right: 11px;
+}
+
+.mb-11 {
+  margin-bottom: 11px;
+}
+
+/* Set 4 */
+.mt-15 {
+  margin-top: 15px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+/* Set 5 */
+.mt-19 {
+  margin-top: 19px;
+}
+
+.ml-19 {
+  margin-left: 19px;
+}
+
+.mr-19 {
+  margin-right: 19px;
+}
+
+.mb-19 {
+  margin-bottom: 19px;
+}
+
+/* Set 6 */
+.mt-25 {
+  margin-top: 25px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.ml-35 {
+  margin-left: 35px;
+}
+
+.mr-35 {
+  margin-right: 35px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+/* padding */
+/* Set 1 */
+.pt-3 {
+  padding-top: 3px;
+}
+
+.pl-3 {
+  padding-left: 3px;
+}
+
+.pr-3 {
+  padding-right: 3px;
+}
+
+.pb-3 {
+  padding-bottom: 3px;
+}
+
+/* Set 2 */
+.pt-7 {
+  padding-top: 7px;
+}
+
+.pl-7 {
+  padding-left: 7px;
+}
+
+.pr-7 {
+  padding-right: 7px;
+}
+
+.pb-7 {
+  padding-bottom: 7px;
+}
+
+/* Set 3 */
+.pt-11 {
+  padding-top: 11px;
+}
+
+.pl-11 {
+  padding-left: 11px;
+}
+
+.pr-11 {
+  padding-right: 11px;
+}
+
+.pb-11 {
+  padding-bottom: 11px;
+}
+
+/* Set 4 */
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+/* Set 5 */
+.pt-19 {
+  padding-top: 19px;
+}
+
+.pl-19 {
+  padding-left: 19px;
+}
+
+.pr-19 {
+  padding-right: 19px;
+}
+
+.pb-19 {
+  padding-bottom: 19px;
+}
+
+/* Set 6 */
+.pt-25 {
+  padding-top: 25px;
+}
+
+.pl-25 {
+  padding-left: 25px;
+}
+
+.pr-25 {
+  padding-right: 25px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+/* layout related */
+
+.flex {
+  display: flex;
+}
+
+.flex-inline {
+  display: inline-flex;
+}
+
+.flex-flow-col {
+  flex-flow: column;
+}
+
+.flex-jst-ar {
+  justify-content: space-around;
+}
+
+.flex-jst-btw {
+  justify-content: space-between;
+}
+
+.flex-jst-cent {
+  justify-content: center;
+}
+
+.flex-al-cent {
+  align-items: center;
+}
+
+.flex-al-start {
+  align-items: flex-start;
+}
+
+.flex-al-end {
+  align-items: flex-end;
+}
+
+.txt-cent {
+  text-align: center;
+}
+.float-r {
+  float: right;
+}
+.float-l {
+  float: left;
+}
+
+.border-r10 {
+  border-radius: 10px;
+}
+
+.active {
+  color: var(--ash3);
+}

@@ -1,0 +1,39 @@
+.slide_holder {
+  overflow-x: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+.slide {
+  display: flex;
+  transition: transform 1s ease;
+}
+.container {
+  display: block;
+  white-space: normal;
+  flex: 0 0 100%;
+  box-sizing: border-box;
+}
+.review_write {
+  line-height: 2;
+}
+
+.review > svg {
+  width: 40px;
+  height: 40px;
+}
+
+.customer {
+  margin-left: auto;
+  margin-right: auto;
+}
+.customer > img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.indicators > span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

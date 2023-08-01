@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+.button {
+  padding: 8px 30px;
+  border-radius: 500px;
+  border: none;
+}
+
+.social > * {
+  margin-right: 5px;
+}
+
+.link > * {
+  color: var(--color-p1);
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.8;
+  display: block;
+}

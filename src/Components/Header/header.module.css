@@ -1,0 +1,41 @@
+.header {
+  border-bottom: thin solid var(--border);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.toggle_mode {
+  display: none;
+}
+
+.check_box {
+  height: 20px;
+  width: 40px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.check_box > span {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: -15px;
+  transition: left 0.5s;
+}
+
+.toggle_mode:checked + .check_box > span {
+  left: 25px;
+}
+
+.menu_icon {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  padding: 7px;
+}
