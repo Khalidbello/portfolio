@@ -3,10 +3,29 @@ import { useState } from "react";
 import DarkIcon from "./../Svg/DarkIcon.js";
 import LightIcon from "./../Svg/LightIcon.js";
 import MenuIcon from "./../Svg/MenuIcon.js";
+import Menu from "./Menu.js";
 
 const Header = () => {
   const [isChecked, setIsChecked] = useState(false);
+  const [menuStyle, setMenuStyle] = useState({});
+  const [showMenu, setShowMenu] = useState(false);
   const root = document.documentElement;
+
+  const displayMenu = () => {
+    setShowMenu(true);
+    setTimeout(() => {
+      setMenuStyle({ top: "50px" });
+    }, 100);
+  };
+
+  const hideMenu = () => {
+    setTimeout(() => {
+      setMenuStyle({});
+      setTimeout(() => {
+        setShowMenu(false);
+      }, 500);
+    }, 400);
+  };
 
   const toggleMode = () => {
     setIsChecked(!isChecked);
@@ -18,7 +37,7 @@ const Header = () => {
       root.style.setProperty("--dark", "#11111f");
       root.style.setProperty("--border", "#383838");
       root.style.setProperty("--white", "#ffffff");
-      root.style.setProperty("--ash5",  "#535353");
+      root.style.setProperty("--ash5", "#535353");
     } else {
       root.style.setProperty("--ash1", "#ffffff");
       root.style.setProperty("--ash2", "#eeeeef");
@@ -27,7 +46,7 @@ const Header = () => {
       root.style.setProperty("--dark", "#fff");
       root.style.setProperty("--border", "#d8d8d8");
       root.style.setProperty("--white", "#111");
-      root.style.setProperty("--ash5",  "#aaaaaf");
+      root.style.setProperty("--ash5", "#aaaaaf");
     }
   }; // end of toggleMode;
 
@@ -59,8 +78,9 @@ const Header = () => {
             {isChecked ? <LightIcon /> : <DarkIcon />}
           </span>
         </label>
-        <MenuIcon styles={styles.menu_icon} />
+        <MenuIcon onClick={displayMenu} styles={styles.menu_icon} />
       </div>
+      {showMenu ? <Menu anime={menuStyle} hide={hideMenu} /> : ""}
     </header>
   );
 };

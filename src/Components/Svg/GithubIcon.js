@@ -6,13 +6,13 @@ const GithubIcon = () => {
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
         stroke="#0CC"
-        stroke-width="3.5200000000000005"
+        strokeWidth="3.5200000000000005"
       >
         {" "}
         <title>github [#142]</title> <desc>Created with Sketch.</desc>{" "}
@@ -20,9 +20,9 @@ const GithubIcon = () => {
         <g
           id="Page-1"
           stroke="none"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
-          fill-rule="evenodd"
+          fillRule="evenodd"
         >
           {" "}
           <g
@@ -50,9 +50,9 @@ const GithubIcon = () => {
         <g
           id="Page-1"
           stroke="none"
-          stroke-width="1"
+          strokeWidth="1"
           fill="none"
-          fill-rule="evenodd"
+          fillRule="evenodd"
         >
           {" "}
           <g

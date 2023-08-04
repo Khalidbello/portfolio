@@ -1,6 +1,7 @@
 const MenuIcon = (props) => {
   return (
     <svg
+      onClick={props.onClick}
       className={`${props.styles} bg-p1 p7`}
       xmlns="http://www.w3.org/2000/svg"
       width="24"

@@ -47,6 +47,16 @@ const Footer = () => {
           My Projects
         </Link>
         <Link
+          to="my-skills"
+          offset={-70}
+          duration={500}
+          activeClass="active"
+          spy={true}
+          smooth={true}
+        >
+          My Skills
+        </Link>
+        <Link
           activeClass="about-me"
           to="reviews"
           smooth={true}

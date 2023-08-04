@@ -39,7 +39,7 @@ const Reviews = () => {
         setReviewNum(0);
       } else {
         setReviewNum(reviewNum + 1);
-      };
+      }
       swipe = false;
     }
   }; // end of scroller

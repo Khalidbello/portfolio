@@ -11,6 +11,11 @@
   padding: 7px 20px;
   border: none;
   border-radius: 100px;
+  transition: padding 1s ease;
+}
+
+.button:hover {
+  padding: 9px 25px;
 }
 
 .img {
